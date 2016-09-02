@@ -1,5 +1,5 @@
 public class DNode {
-  protected String element;	// String element stored by a node
+  protected String element;	// element stored by a node in String
   protected DNode next, prev;	// Pointers to next and previous nodes
   /** Constructor that creates a node with given fields */
   public DNode(String e, DNode p, DNode n) {

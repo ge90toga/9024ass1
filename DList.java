@@ -1,7 +1,7 @@
-
+//Class DList
 public class DList {
 	protected int size; // number of elements
-	protected DNode header, trailer; // sentinels
+	protected DNode trailer, header; // sentinels
 
 	/** Constructor that creates an empty list */
 	public DList() {
